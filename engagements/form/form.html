@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Form</title>
+</head>
+<body>
+  <header>
+    <h1>Slade's Web Design Class</h1>
+  </header>
+  <main>
+    <form action="formprocessing.html" method="post">
+      <div class="form-row">
+        <label for="personname">Full Name</label>
+        <input id="personname" type="text" name="fullname" placeholder="Full Name">
+      </div>
+      <div class="form-row">
+        <label for="email">Email</label>
+        <input type="text" name="email" id="email" value="sladec@byuh.edu">
+      </div>
+      <div class="form-row">
+        <label for="password">Password</label>
+        <input type="password" name="pass" id="password">
+      </div>
+      <div class="form-row">
+        <label for="state">State</label>
+        <select name="state" id="state">
+          <option value="blank">------</option>
+          <option value="CA">California</option>
+          <option value="HI">Hawaii</option>
+          <option value="UT">Utah</option>
+        </select>
+      </div>
+      <div class="form-row">
+        <input type="submit" value="Sign Up">
+      </div>
+    </form>
+  </main>
+  <footer>
+    &copy; 2026 Chris Slade
+  </footer>
+</body>
+</html>
